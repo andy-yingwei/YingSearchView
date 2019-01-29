@@ -6,14 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <com.example.yingsearchviewlibrary.YingSearchViewByRecyclerView
+    <com.example.yingsearchviewlibrary.YingLikeSearchByRecyclerView
         android:id="@+id/yingSearchViewByRecyclerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </com.example.yingsearchviewlibrary.YingSearchViewByRecyclerView>
-    <com.example.yingsearchviewlibrary.YingSearchViewByPopupwindow
+    </com.example.yingsearchviewlibrary.YingLikeSearchByRecyclerView>
+    <com.example.yingsearchviewlibrary.YingLikeSearchByPopupwindow
         android:id="@+id/yingSearchViewByPopupwindow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </com.example.yingsearchviewlibrary.YingSearchViewByPopupwindow>
+    </com.example.yingsearchviewlibrary.YingLikeSearchByPopupwindow>
 </LinearLayout>

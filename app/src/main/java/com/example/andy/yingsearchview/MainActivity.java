@@ -4,17 +4,16 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.yingsearchviewlibrary.MyAdapter;
-import com.example.yingsearchviewlibrary.YingSearchViewByPopupwindow;
-import com.example.yingsearchviewlibrary.YingSearchViewByRecyclerView;
+import com.example.yingsearchviewlibrary.YingLikeSearchByPopupwindow;
+import com.example.yingsearchviewlibrary.YingLikeSearchByRecyclerView;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     private ArrayList<String> itemList =  new ArrayList<String>();
-    private YingSearchViewByRecyclerView myYingSearchViewByRecyclerView;
-    private YingSearchViewByPopupwindow myYingSearchViewByPopupwindow;
+    private YingLikeSearchByRecyclerView myYingLikeSearchByRecyclerView;
+    private YingLikeSearchByPopupwindow myYingLikeSearchByPopupwindow;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,15 +24,15 @@ public class MainActivity extends AppCompatActivity {
         itemList.add("下拉列表项2");
         itemList.add("下拉列表项3");
 
-        myYingSearchViewByRecyclerView = (YingSearchViewByRecyclerView) findViewById(R.id.yingSearchViewByRecyclerView);
-        myYingSearchViewByPopupwindow=(YingSearchViewByPopupwindow) findViewById(R.id.yingSearchViewByPopupwindow);
+        myYingLikeSearchByRecyclerView = (YingLikeSearchByRecyclerView) findViewById(R.id.yingSearchViewByRecyclerView);
+        myYingLikeSearchByPopupwindow =(YingLikeSearchByPopupwindow) findViewById(R.id.yingSearchViewByPopupwindow);
 
-        myYingSearchViewByRecyclerView.setRecyclerViewData(itemList);
+        myYingLikeSearchByRecyclerView.setRecyclerViewData(itemList);
 
-        myYingSearchViewByPopupwindow.setPopupWindowData(itemList);
-        myYingSearchViewByPopupwindow.setTextViewStyle(20, Color.BLACK,true, Color.WHITE);
+        myYingLikeSearchByPopupwindow.setPopupWindowData(itemList);
+        myYingLikeSearchByPopupwindow.setTextViewStyle(20, Color.BLACK,true, Color.WHITE);
         itemList.add("djdsjsdkskds");
-        myYingSearchViewByPopupwindow.setPopupWindowData(itemList);
+        myYingLikeSearchByPopupwindow.setPopupWindowData(itemList);
     }
 
 }

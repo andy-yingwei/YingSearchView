@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class YingSearchViewByPopupwindow extends LinearLayout {
+public class YingLikeSearchByPopupwindow extends LinearLayout {
 
     private boolean cutLine;
     private int recyclerViewBackGround;
@@ -34,15 +34,15 @@ public class YingSearchViewByPopupwindow extends LinearLayout {
 
     private OnEdittextChangedListener myOnEdittextChangedListener = null;
 
-    public YingSearchViewByPopupwindow(Context context) {
+    public YingLikeSearchByPopupwindow(Context context) {
         this(context,null);
     }
 
-    public YingSearchViewByPopupwindow(Context context, AttributeSet attrs) {
+    public YingLikeSearchByPopupwindow(Context context, AttributeSet attrs) {
         this(context, attrs,0);
     }
 
-    public YingSearchViewByPopupwindow(Context context, AttributeSet attrs, int defStyle) {
+    public YingLikeSearchByPopupwindow(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         initView();
     }

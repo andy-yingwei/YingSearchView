@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class YingSearchViewByRecyclerView extends LinearLayout {
+public class YingLikeSearchByRecyclerView extends LinearLayout {
 
     private boolean cutLine;
     private int recyclerViewBackGround;
@@ -28,15 +28,15 @@ public class YingSearchViewByRecyclerView extends LinearLayout {
     private LinearLayoutManager layoutManager;
     private ArrayList<String> itemList =  new ArrayList<String>();
     int i=4;
-    public YingSearchViewByRecyclerView(Context context) {
+    public YingLikeSearchByRecyclerView(Context context) {
         this(context,null);
     }
 
-    public YingSearchViewByRecyclerView(Context context, AttributeSet attrs) {
+    public YingLikeSearchByRecyclerView(Context context, AttributeSet attrs) {
         this(context, attrs,0);
     }
 
-    public YingSearchViewByRecyclerView(Context context, AttributeSet attrs, int defStyle) {
+    public YingLikeSearchByRecyclerView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         initView();
     }
